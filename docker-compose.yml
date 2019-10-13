@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  web:
+    image: hymnis/dead-drop
+    restart: unless-stopped
+    environment:
+      - SALT=95cf5ba4-48c9-4861-a215-83abf3746ba2
+      - MONGO_HOST=database
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+
+  database:
+    image: mongo
+    restart: always
+
