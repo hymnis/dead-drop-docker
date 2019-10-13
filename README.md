@@ -1,6 +1,6 @@
 # dead-drop with Docker
 
-Using the source code from: [https://github.com/hymnis/dead-drop-python](https://github.com/hymnis/dead-drop-python) (a fork of BillKeenan's [dead-drop-python](https://github.com/BillKeenan/dead-drop-python)
+Using the source code from: [https://github.com/hymnis/dead-drop-python](https://github.com/hymnis/dead-drop-python) (a fork of BillKeenan's [dead-drop-python](https://github.com/BillKeenan/dead-drop-python))
 
 ## Using Docker Compose
 
